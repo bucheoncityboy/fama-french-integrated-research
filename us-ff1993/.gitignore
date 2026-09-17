@@ -1,0 +1,45 @@
+# Generated data and outputs
+data/
+output/*.csv
+output/*.md
+
+# Raw CRSP research data (download separately)
+crsp/
+
+# Compustat book equity data (proprietary)
+compustat_be.csv
+
+# Original paper PDF
+*.pdf
+
+# Research output images (not submission figures)
+crsp/**/*.png
+
+# Sisyphus tracking
+.sisyphus/
+
+# OpenCode agent operational data
+.omx/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+*.bat

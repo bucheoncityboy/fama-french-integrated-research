@@ -1,0 +1,133 @@
+portfolio,type,stat_type,model,value
+EP <= 0,EP,mean,descriptive,1.2177
+EP <= 0,EP,std,descriptive,7.9197
+EP <= 0,EP,t,descriptive,2.8434
+EP <= 0,EP,alpha,capm,0.0743
+EP <= 0,EP,alpha,ff3f,-0.3555
+EP <= 0,EP,beta_Mkt-RF,capm,1.4218
+EP <= 0,EP,beta_Mkt-RF,ff3f,1.2538
+EP <= 0,EP,beta_SMB,ff3f,1.0448
+EP <= 0,EP,beta_HML,ff3f,0.4722
+EP <= 0,EP,r_squared,capm,0.6593
+EP <= 0,EP,r_squared,ff3f,0.8341
+Low,EP,mean,descriptive,0.8437
+Low,EP,std,descriptive,5.2572
+Low,EP,t,descriptive,2.968
+Low,EP,alpha,capm,-0.1671
+Low,EP,alpha,ff3f,0.0581
+Low,EP,beta_Mkt-RF,capm,1.1024
+Low,EP,beta_Mkt-RF,ff3f,1.0398
+Low,EP,beta_SMB,ff3f,0.0399
+Low,EP,beta_HML,ff3f,-0.5081
+Low,EP,r_squared,capm,0.8965
+Low,EP,r_squared,ff3f,0.9483
+2,EP,mean,descriptive,0.9419
+2,EP,std,descriptive,4.6581
+2,EP,t,descriptive,3.7393
+2,EP,alpha,capm,-0.0251
+2,EP,alpha,ff3f,-0.007
+2,EP,beta_Mkt-RF,capm,0.9969
+2,EP,beta_Mkt-RF,ff3f,1.0006
+2,EP,beta_SMB,ff3f,-0.0307
+2,EP,beta_HML,ff3f,-0.0259
+2,EP,r_squared,capm,0.9377
+2,EP,r_squared,ff3f,0.9383
+3,EP,mean,descriptive,0.9959
+3,EP,std,descriptive,4.5814
+3,EP,t,descriptive,4.0199
+3,EP,alpha,capm,0.0389
+3,EP,alpha,ff3f,-0.0451
+3,EP,beta_Mkt-RF,capm,0.9728
+3,EP,beta_Mkt-RF,ff3f,0.9849
+3,EP,beta_SMB,ff3f,0.0288
+3,EP,beta_HML,ff3f,0.1701
+3,EP,r_squared,capm,0.9236
+3,EP,r_squared,ff3f,0.9322
+4,EP,mean,descriptive,1.2085
+4,EP,std,descriptive,4.4748
+4,EP,t,descriptive,4.9942
+4,EP,alpha,capm,0.2682
+4,EP,alpha,ff3f,0.0881
+4,EP,beta_Mkt-RF,capm,0.9325
+4,EP,beta_Mkt-RF,ff3f,0.9635
+4,EP,beta_SMB,ff3f,0.0424
+4,EP,beta_HML,ff3f,0.3735
+4,EP,r_squared,capm,0.8873
+4,EP,r_squared,ff3f,0.9287
+High,EP,mean,descriptive,1.2937
+High,EP,std,descriptive,5.0129
+High,EP,t,descriptive,4.7727
+High,EP,alpha,capm,0.3263
+High,EP,alpha,ff3f,0.0093
+High,EP,beta_Mkt-RF,capm,0.9979
+High,EP,beta_Mkt-RF,ff3f,1.0121
+High,EP,beta_SMB,ff3f,0.232
+High,EP,beta_HML,ff3f,0.5875
+High,EP,r_squared,capm,0.8088
+High,EP,r_squared,ff3f,0.9129
+DP = 0,DP,mean,descriptive,1.0295
+DP = 0,DP,std,descriptive,7.0733
+DP = 0,DP,t,descriptive,2.6916
+DP = 0,DP,alpha,capm,-0.1109
+DP = 0,DP,alpha,ff3f,-0.2068
+DP = 0,DP,beta_Mkt-RF,capm,1.4144
+DP = 0,DP,beta_Mkt-RF,ff3f,1.2227
+DP = 0,DP,beta_SMB,ff3f,0.8346
+DP = 0,DP,beta_HML,ff3f,-0.1615
+DP = 0,DP,r_squared,capm,0.8181
+DP = 0,DP,r_squared,ff3f,0.9293
+Low,DP,mean,descriptive,1.0088
+Low,DP,std,descriptive,5.5511
+Low,DP,t,descriptive,3.3609
+Low,DP,alpha,capm,-0.0269
+Low,DP,alpha,ff3f,0.1698
+Low,DP,beta_Mkt-RF,capm,1.1625
+Low,DP,beta_Mkt-RF,ff3f,1.0856
+Low,DP,beta_SMB,ff3f,0.1216
+Low,DP,beta_HML,ff3f,-0.4824
+Low,DP,r_squared,capm,0.8955
+Low,DP,r_squared,ff3f,0.9387
+2,DP,mean,descriptive,1.021
+2,DP,std,descriptive,4.9912
+2,DP,t,descriptive,3.7828
+2,DP,alpha,capm,0.022
+2,DP,alpha,ff3f,0.1028
+2,DP,beta_Mkt-RF,capm,1.0739
+2,DP,beta_Mkt-RF,ff3f,1.0674
+2,DP,beta_SMB,ff3f,-0.0477
+2,DP,beta_HML,ff3f,-0.1548
+2,DP,r_squared,capm,0.9464
+2,DP,r_squared,ff3f,0.953
+3,DP,mean,descriptive,0.9494
+3,DP,std,descriptive,4.6937
+3,DP,t,descriptive,3.7406
+3,DP,alpha,capm,-0.0189
+3,DP,alpha,ff3f,-0.068
+3,DP,beta_Mkt-RF,capm,1.0
+3,DP,beta_Mkt-RF,ff3f,1.0262
+3,DP,beta_SMB,ff3f,-0.0574
+3,DP,beta_HML,ff3f,0.1325
+3,DP,r_squared,capm,0.9293
+3,DP,r_squared,ff3f,0.9344
+4,DP,mean,descriptive,1.0475
+4,DP,std,descriptive,4.3565
+4,DP,t,descriptive,4.4468
+4,DP,alpha,capm,0.1157
+4,DP,alpha,ff3f,-0.0171
+4,DP,beta_Mkt-RF,capm,0.9123
+4,DP,beta_Mkt-RF,ff3f,0.9535
+4,DP,beta_SMB,ff3f,-0.0405
+4,DP,beta_HML,ff3f,0.3072
+4,DP,r_squared,capm,0.8975
+4,DP,r_squared,ff3f,0.9252
+High,DP,mean,descriptive,1.0638
+High,DP,std,descriptive,3.9363
+High,DP,t,descriptive,4.9978
+High,DP,alpha,capm,0.2075
+High,DP,alpha,ff3f,-0.0357
+High,DP,beta_Mkt-RF,capm,0.7304
+High,DP,beta_Mkt-RF,ff3f,0.7851
+High,DP,beta_SMB,ff3f,0.0072
+High,DP,beta_HML,ff3f,0.5264
+High,DP,r_squared,capm,0.7049
+High,DP,r_squared,ff3f,0.8064
