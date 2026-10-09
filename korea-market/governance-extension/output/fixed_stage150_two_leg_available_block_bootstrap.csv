@@ -1,0 +1,3 @@
+block_months,repetitions,seed,alpha_low_pct,alpha_high_pct,mean_low_pct,mean_high_pct,resampling_unit,status
+6,2000,1993,-0.8742162846042076,1.5441475400802105,-0.31033815177002116,3.423248082367408,paired_monthly_spread_and_FF3_time_blocks; fixed_historical_portfolio_paths,estimated
+12,2000,1993,-0.4570606719993115,1.0261021904323324,-0.0699740663245066,2.875036748425829,paired_monthly_spread_and_FF3_time_blocks; fixed_historical_portfolio_paths,estimated

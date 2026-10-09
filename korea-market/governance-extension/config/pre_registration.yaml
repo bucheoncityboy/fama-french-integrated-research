@@ -1,0 +1,70 @@
+study_title: 한국 주식시장 가치 프리미엄의 거버넌스 조건부 효과
+source_commit: 81f3bd921ffcb4ea84c19123d798fbcb830ee9e3
+registration_scope: new_governance_empirical_analysis_only
+prior_knowledge: original_FF3_results_already_known; no_actual_G_strategy_returns_seen
+signal: outside_directors / total_directors
+years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+last_return_month: '2026-05-01'
+smoke_codes: ['005930', '017800', '000850', '068270', '035720']
+smoke_years: [2016, 2019, 2022, 2024, 2025]
+smoke_rule: fixed_codes_cover_large_medium_small_KOSPI_and_KOSDAQ; verify_membership_and_historical_size_before_fetch
+universe: all_codes_in_original_historical_panel; retain_early_exit_and_noncurrent_codes
+expansion_order: historical_2014_12_size_tercile_round_robin_then_code; missing_2014_codes_sorted_last
+primary:
+  bm_cut: 0.5
+  g_cut: 0.5
+  ties: values_equal_cut_are_low; never_split_equal_values
+  weighting: prior_actual_month_market_cap
+  return: HighBM_HighG_minus_HighBM_LowG
+  min_cell_stocks: 5
+  min_contiguous_months: 24
+  hac_lags: 3
+  hypothesis: two_sided
+  bm_source: fiscal_t_minus_1_FnGuide_BE_and_current_June_ME_only_after_same_value_is_matched_to_DART_annual_equity_and_receipt_date
+  financial_match_tolerance: rounding_0.011_eok_or_relative_0.00001
+  accepted_equity_accounts: [자본총계, 지배기업소유주지분, 지배기업의소유주에게귀속되는자본, 지배주주지분, 지배기업소유주지분합계]
+  period_priority: most_recent_economic_period_then_publication; late_old_period_amendments_cannot_replace_new_period
+  availability: first_KRX_month_end_session_on_or_after_filing_plus_one_calendar_day
+  max_governance_age_days: 550
+  missing_return: exclude_entire_formed_cell_month; no_ex_post_reweighting
+  valid_period_rule: longest_contiguous_all_four_cell_valid_block; ties_choose_earliest; freeze_dates_before_viewing_spread
+  benchmark: spec_aligned_FF3_same_months; benchmark_PIT_uncertainty_explicit
+time_split:
+  is_end: '2021-12-01'
+  oos_start: '2022-01-01'
+  independent_oos_min_months: 24
+  unavailable_rule: do_not_change_boundary_to_improve_results; label_no_independent_OOS
+secondary_exploratory:
+  - equal_weight
+  - g_cut_30
+  - g_cut_70
+  - exclude_entire_original_universe_top5_market_cap
+  - legacy_FF3
+  - hac6
+  - stale_365_days
+  - kospi_only
+  - kosdaq_only
+  - size_stratified_2_groups
+  - roe_control_if_verified
+  - pre2024
+  - post2024
+  - quarterly_rebalance
+  - annual_rebalance
+  - cost_10bp
+  - cost_30bp
+  - quarterly_G_if_data_budget_allows
+uncertainty:
+  block_lengths: [6, 12]
+  bootstrap_repetitions: 2000
+  random_seed: 1993
+  correction: Holm_all_secondary_alpha_tests
+cost:
+  assumed_per_leg_one_way_bps: [0, 10, 30]
+  short_borrow_and_financing: unverified_not_included
+source_limitations:
+  - no_assumption_of_survivorship_free_original_universe
+  - no_total_return_claim_without_dividend_metadata
+  - no_use_of_ticker_digit_market_classification
+  - no_imputed_delisting_return
+  - no_causal_COE_claim
+parameter_search: none; all_registered_specs_reported_including_NA
