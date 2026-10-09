@@ -1,6 +1,0 @@
-{
-  "sha256": "7821915eaf47ffe343b5e4a1892f9809132698ab95bf862feb2f3cf04679b5b3",
-  "frozen_at_utc": "2026-10-09T10:58:36.511134+00:00",
-  "G_strategy_returns_seen": false,
-  "revision_reason": "Two original smoke anchors absent from FnGuide panel; replaced with two historical KOSDAQ-to-KOSPI transfer companies before any G strategy returns. No current KOSDAQ representativeness assumed."
-}

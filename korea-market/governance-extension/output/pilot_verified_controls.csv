@@ -1,2 +1,0 @@
-control_spec,not_causal,status,n_months,mean_pct,t_hac,p_hac,ci95_low_pct,ci95_high_pct,average_stocks
-HighBM_monthly_cross_section_G_logME_BM_ROE_leverage_then_HAC_of_monthly_G_slope,True,estimated,24,1.1042468426786574,0.857835530647825,0.39983448517883347,-1.5586279780498966,3.767121663407212,59.375

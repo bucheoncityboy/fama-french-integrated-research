@@ -1,7 +1,0 @@
-file,rows,columns,date_start,date_end,companies,duplicate_code_date
-book_equity_monthly.parquet,275556,"{""code"": ""str"", ""date"": ""datetime64[ns]"", ""be"": ""float64"", ""be_year"": ""int64"", ""be_positive_flag"": ""bool""}",2000-07-01 00:00:00,2027-06-01 00:00:00,1136.0,0.0
-financial_data_long.parquet,1459200,"{""code"": ""str"", ""name"": ""str"", ""item_code"": ""str"", ""date"": ""datetime64[ns]"", ""value"": ""float64""}",1999-12-01 00:00:00,2026-03-01 00:00:00,1136.0,
-market_data_long.parquet,722729,"{""code"": ""str"", ""name"": ""str"", ""item_code"": ""str"", ""date"": ""datetime64[ns]"", ""value"": ""float64""}",1999-12-01 00:00:00,2026-05-01 00:00:00,1144.0,
-market_excess_return.parquet,316,"{""date"": ""datetime64[ns]"", ""mkt_return"": ""float64"", ""rf"": ""float64"", ""mkt_rf"": ""float64""}",2000-02-01 00:00:00,2026-05-01 00:00:00,,
-panel_data.parquet,226563,"{""code"": ""str"", ""name"": ""str"", ""date"": ""datetime64[ns]"", ""return"": ""float64"", ""me"": ""float64"", ""me_june"": ""float64"", ""be"": ""float64"", ""bm"": ""float64"", ""port_year"": ""int32"", ""is_kosdaq"": ""object""}",1999-12-01 00:00:00,2026-05-01 00:00:00,1054.0,0.0
-stock_returns.parquet,226563,"{""code"": ""str"", ""name"": ""str"", ""date"": ""datetime64[ns]"", ""return"": ""float64"", ""me"": ""float64"", ""shrout"": ""float64""}",1999-12-01 00:00:00,2026-05-01 00:00:00,1054.0,0.0

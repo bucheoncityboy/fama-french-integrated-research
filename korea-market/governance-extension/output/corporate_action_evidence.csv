@@ -1,4 +1,0 @@
-stock_code,event,source,known_terms,resolved_return,remaining
-001880,share_exchange_DL_construction_to_DL_EC,https://kind.krx.co.kr/external/2023/12/06/000361/20231206001130/10601.htm,0.3704268 new ordinary shares per old ordinary share; scheduled exchange 2024-02-14,False,monthly old ticker price is not verified as full successor consideration; no guessed terminal return
-002270,Lotte_food_merger,https://kind.krx.co.kr/external/2022/03/23/000780/20220323003339/11344.htm,official merger valuation report,False,old-ticker zero-volume last bar is not a 0% liquidation return
-001140,terminal_trading_price_observed_2026_01,https://fchart.stock.naver.com/sise.nhn?symbol=001140&timeframe=month&count=120&requestType=0,independent month bar has actual volume and closing price; terminal loss not zero,False,separate event/price basis cross-check required before modifying frozen original-return primary
