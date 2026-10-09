@@ -1,0 +1,6 @@
+stock_code,name,first_month,last_month,in_panel,membership_correction,selection_rule
+000850,화천기공,1999-12-01,2026-05-01,True,pre_G_outcomes_0ada647,fixed_large_mid_small_and_historical_market_transfer_smoke
+005930,삼성전자,1999-12-01,2026-05-01,True,pre_G_outcomes_0ada647,fixed_large_mid_small_and_historical_market_transfer_smoke
+017800,현대엘리베이터,1999-12-01,2026-05-01,True,pre_G_outcomes_0ada647,fixed_large_mid_small_and_historical_market_transfer_smoke
+035720,카카오,1999-12-01,2026-05-01,True,pre_G_outcomes_0ada647,fixed_large_mid_small_and_historical_market_transfer_smoke
+068270,셀트리온,2005-07-01,2026-05-01,True,pre_G_outcomes_0ada647,fixed_large_mid_small_and_historical_market_transfer_smoke

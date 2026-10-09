@@ -1,0 +1,14 @@
+{
+  "observations": 226563,
+  "valid_compared": 224495,
+  "max_arithmetic_error": 0.0,
+  "greater_100pct_returns_removed": 659,
+  "noncontiguous_price_return_rows": 4,
+  "rows_without_matching_raw_price": 352,
+  "unit_check": "decimal_price_pct_change_verified",
+  "adjusted_price_metadata": "UNVERIFIED",
+  "cash_dividend_total_return": "UNVERIFIED",
+  "terminal_delisting_return": "UNVERIFIED",
+  "corporate_action_attribution_of_filtered_returns": "UNVERIFIED",
+  "source_hash": "5f84d807d8aee8cb1c566ec87a94bae6734404b6b32298dfc84cd5a1e3b89606"
+}

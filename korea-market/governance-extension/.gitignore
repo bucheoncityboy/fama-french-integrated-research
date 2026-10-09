@@ -1,0 +1,14 @@
+!*.csv
+__pycache__/
+.pytest_cache/
+*.pyc
+.env*
+*.key
+data/raw/*
+data/private/*
+data/*.parquet
+!data/raw/.gitkeep
+!data/private/.gitkeep
+data/probe.json
+data/api_log_sanitized.csv
+tmp/

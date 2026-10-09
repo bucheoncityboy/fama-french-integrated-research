@@ -1,0 +1,105 @@
+{
+  "final_status": "EMPIRICAL_LIMITED",
+  "claim_level": "exploratory; no_causal_or_investable_alpha_claim",
+  "data_acquisition": "actual_historical_API_acquired",
+  "pit_verification": "raw_hash_values_and_filing_dates_verified",
+  "portfolio_estimation": "estimated_months_with_missing_cell_months_explicit",
+  "ff3_alpha": "not_estimated",
+  "bias_validation": "completed_diagnostics_with_unverified_material_biases",
+  "oos_validation": "in_sample_exploratory_no_independent_OOS",
+  "report_status": "completed_markdown_PDF_visual_QA",
+  "source_commit": "81f3bd921ffcb4ea84c19123d798fbcb830ee9e3",
+  "code_commit": "4b754c3faaa28ef24a20b03caab64ede9b1cca76",
+  "pre_registration_sha256": "7821915eaf47ffe343b5e4a1892f9809132698ab95bf862feb2f3cf04679b5b3",
+  "n_valid_months": 3,
+  "alpha_monthly_pct": null,
+  "alpha_p_hac": null,
+  "total_g_obs": 4685,
+  "joint_panel_obs": 38742,
+  "gate_failures": [
+    "Gate_D_primary_contiguous_min24_not_met"
+  ],
+  "limitations": [
+    "original exchange-wide universe/delisting-return completeness and absence of historical companies remain unresolved",
+    "non-random governance and financial matching; original universe is not the complete Korean stock market",
+    "historical industry classifications absent; regulation and profitability may explain G differences",
+    "consolidated assets do not certify statutory separate-entity threshold; historical company exceptions not independently verified",
+    "document/original-file API unavailable; original-before-correction counts not reconstructed",
+    "short IS and data-availability exclusions can prevent independent OOS validation",
+    "independent adjusted-price/corporate-action source unavailable; original return filter inherited",
+    "short eligibility, borrowing, financing, liquidity and suspension execution unverified",
+    "benchmark universe and every factor stock's financial PIT/dividend metadata not independently resolved"
+  ],
+  "next_actions": [
+    "recover pre-2020 governance originals if available",
+    "independently audit complete historical listing/delisting and adjusted total returns",
+    "obtain historical sector and legal entity asset metadata",
+    "extend independent holdout without specification tuning"
+  ],
+  "supplementary_estimation": {
+    "design": "config/supplementary_availability_design.json",
+    "cohort_results": [
+      {
+        "spec_id": "all_two_leg_available",
+        "role": "supplementary_exploratory",
+        "primary_replaced": false,
+        "design_registration": "after_availability_audit_before_outcome_inspection",
+        "N_stocks_ever_joint": 782,
+        "status": "not_estimated",
+        "not_estimated_reason": "insufficient_common_months",
+        "n_months": 8
+      },
+      {
+        "spec_id": "fixed_stage150_two_leg_available",
+        "role": "supplementary_exploratory",
+        "primary_replaced": false,
+        "design_registration": "after_availability_audit_before_outcome_inspection",
+        "N_stocks_ever_joint": 138,
+        "status": "estimated",
+        "n_months": 24,
+        "start": "2024-04-01",
+        "end": "2026-03-01",
+        "alpha_monthly_decimal": 0.005145235174688073,
+        "alpha_monthly_pct": 0.5145235174688073,
+        "t_hac": 0.8808933564279193,
+        "t_ols": 0.5419590295754778,
+        "p_hac": 0.38883897998851424,
+        "ci95_low_pct": -0.7038728325170767,
+        "ci95_high_pct": 1.7329198674546913,
+        "beta_mkt": 0.42766005906125776,
+        "beta_smb": 0.16431322526928752,
+        "beta_hml": 0.22871561902651744,
+        "r_squared": 0.4020163150816165,
+        "condition_number": 44.929523313333945,
+        "rf_subtracted": false,
+        "hac_lags": 3
+      }
+    ]
+  },
+  "n_all_four_cell_valid_months": 23,
+  "n_primary_contiguous_months": 3,
+  "n_months_any_joint_data": 59,
+  "annual_G_PIT_observations": 4540,
+  "joint_stocks": 782,
+  "supplementary_mean_test": {
+    "mean_monthly_pct": 1.389667719952361,
+    "p_hac": 0.15346747918118103,
+    "n_months": 24,
+    "independent_OOS": false
+  },
+  "bias_audit_counts": {
+    "PASS": 4,
+    "FAIL": 0,
+    "UNVERIFIED": 10
+  },
+  "original_files_preserved": 120,
+  "final_code_revision_local": "d963fabacaca1c87aef134243ecf24aecf743e5a",
+  "test_results": {
+    "passed": 54,
+    "failed": 0,
+    "skipped": 0,
+    "public_numeric_audit": "PASS",
+    "static_compile": "PASS",
+    "PDF_QA": "PASS"
+  }
+}

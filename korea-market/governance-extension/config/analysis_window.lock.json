@@ -1,0 +1,12 @@
+{
+  "pre_registration_sha256": "7821915eaf47ffe343b5e4a1892f9809132698ab95bf862feb2f3cf04679b5b3",
+  "rule": "longest_contiguous_all_four_cells_valid; ties_earliest; availability_only",
+  "window_start": "2022-12-01",
+  "window_end": "2023-02-01",
+  "n_valid_months": 3,
+  "all_valid_months": 23,
+  "all_attempted_months": 125,
+  "is_end": "2021-12-01",
+  "oos_start": "2022-01-01",
+  "frozen_before_performance_inspection": true
+}

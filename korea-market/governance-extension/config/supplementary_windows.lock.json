@@ -1,0 +1,20 @@
+[
+  {
+    "cohort": "all_two_leg_available",
+    "rule": "two_value_legs_only_contiguous; same_min24; primary_full_four_cells_unchanged",
+    "n_available_months": 41,
+    "window_N": 8,
+    "start": "2025-01-01",
+    "end": "2025-08-01",
+    "frozen_before_fitting": true
+  },
+  {
+    "cohort": "fixed_stage150_two_leg_available",
+    "rule": "two_value_legs_only_contiguous; same_min24; primary_full_four_cells_unchanged",
+    "n_available_months": 54,
+    "window_N": 24,
+    "start": "2024-04-01",
+    "end": "2026-03-01",
+    "frozen_before_fitting": true
+  }
+]
