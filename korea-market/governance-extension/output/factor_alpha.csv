@@ -1,6 +1,0 @@
-strategy,role,status,not_estimated_reason,n_months
-spread,primary,not_estimated,insufficient_common_months,3
-HighBM_HighG,secondary_exploratory,not_estimated,insufficient_common_months,3
-HighBM_LowG,secondary_exploratory,not_estimated,insufficient_common_months,3
-LowBM_HighG,secondary_exploratory,not_estimated,insufficient_common_months,3
-LowBM_LowG,secondary_exploratory,not_estimated,insufficient_common_months,3
